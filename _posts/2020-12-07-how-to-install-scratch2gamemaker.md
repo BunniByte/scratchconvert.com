@@ -1,6 +1,6 @@
 ---
 title: How To Install Scratch2Gamemaker
-tags: How-to, Scratch2Gamemaker, Guide
+tags: How-to Scratch2Gamemaker Guide
 permalink: /installing-scratch2gamemaker
 ---
 
