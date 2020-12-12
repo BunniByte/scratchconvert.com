@@ -2,7 +2,7 @@
 layout: default
 title: ScratchConvert - Convert Scratch Projects to .exe For Free!
 description: Desdcription
-thumbnail: public/img/
+thumbnail: public/img/branding/thumbnail.png
 permalink: /
 ---
 
