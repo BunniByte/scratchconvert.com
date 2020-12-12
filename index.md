@@ -86,7 +86,7 @@ permalink: /
                                     <img src="{{ post.thumbnail | default: site.thumbnail }}" alt="{{ post.title }}" />
                                 </a>
                                 <div class="colored-shadow" style="background-image: url('{{ post.thumbnail | default: site.thumbnail }}'); opacity: 1;"></div>
-                            </div>1q
+                            </div>
                             <div class="card-body">
                                 <h6 class="card-category text-warning">{{ post.category }}</h6>
 
