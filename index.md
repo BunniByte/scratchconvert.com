@@ -79,25 +79,28 @@ permalink: /
                 <h3 class="title">All Articles</h3>
                         
                 <div class="row">
+                    {% for post in site.posts %}
                     <div class="col-md-4">
                         <div class="card card-blog">
                             <div class="card-header card-header-image">
                                 <a href="#pablo">
-                                    <img src="public/img/examples/color1.jpg" alt="" />
+                                    <img src="{{ post.thumbnail | default: site.thumbnail }}" alt="{{ post.title }}" />
                                 </a>
                                 <div class="colored-shadow" style="background-image: url('public/img/examples/color1.jpg'); opacity: 1;"></div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-category text-warning">Dynamic Shadows</h6>
+                                <h6 class="card-category text-warning">{{ post.title }}</h6>
 
                                 <h4 class="card-title">
-                                    <a href="#pablo">The image from this card is getting a yellow shadow</a>
+                                    <a href="#pablo">{{ post.description | strip_html | truncate: 5 }}</a>
                                 </h4>
 
-                                <a href="/" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
+                                <a href="https://creatorassets.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
                             </div>
                         </div>
                     </div>
+                    {% endfor %}
+
                     <div class="col-md-4">
                         <div class="card card-blog">
                             <div class="card-header card-header-image">
