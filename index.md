@@ -89,13 +89,13 @@ permalink: /
                                 <div class="colored-shadow" style="background-image: url('{{ post.thumbnail | default: site.thumbnail }}'); opacity: 1;"></div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-category text-warning">{{ post.title }}</h6>
+                                <h6 class="card-category text-warning">{{ post.category }}</h6>
 
                                 <h4 class="card-title">
-                                    <a href="#pablo">{{ post.description | strip_html | truncate: 5 }}</a>
+                                    <a href="#pablo">{{ post.title }}</a>
                                 </h4>
 
-                                <a href="https://creatorassets.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
+                                <a href="https://scratchconvert.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
                             </div>
                         </div>
                     </div>

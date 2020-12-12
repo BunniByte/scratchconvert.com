@@ -5,6 +5,7 @@ description: Desdcription
 thumbnail: public/img/
 permalink: /how-to-install-scratch2gamemaker
 isFeatured = false
+category: how-to
 ---
 
 asdasd
