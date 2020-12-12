@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ScratchConvert - Convert Scratch Projects to .exe For Free!
-description: Desdcription
+description: All about how to convert Scratch Projects to Windows Programs, HTML5, and even Mobile Apps completely for free!
 thumbnail: public/img/branding/thumbnail.png
 permalink: /
 ---
