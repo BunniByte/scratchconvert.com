@@ -100,45 +100,6 @@ permalink: /
                         </div>
                     </div>
                     {% endfor %}
-
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-header card-header-image">
-                                <a href="#pablo">
-                                    <img src="public/img/examples/color2.jpg" alt="" />
-                                </a>
-                                <div class="colored-shadow" style="background-image: url('public/img/examples/color2.jpg'); opacity: 1;"></div>
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-category text-rose">Dynamic Shadows</h6>
-
-                                <h4 class="card-title">
-                                    <a href="#pablo">The image from this card is getting a pink shadow</a>
-                                </h4>
-
-                                <a href="/" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-header card-header-image">
-                                <a href="#pablo">
-                                    <img src="public/img/examples/color3.jpg" alt="" />
-                                </a>
-                                <div class="colored-shadow" style="background-image: url('public/img/examples/color3.jpg'); opacity: 1;"></div>
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-category text-info">Dynamic Shadows</h6>
-
-                                <h4 class="card-title">
-                                    <a href="#pablo">The image from this card is getting a blue shadow</a>
-                                </h4>
-
-                                <a href="/" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- All articles end -->
