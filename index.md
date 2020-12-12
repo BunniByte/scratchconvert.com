@@ -86,7 +86,7 @@ permalink: /
                                 <a href="#pablo">
                                     <img src="{{ post.thumbnail | default: site.thumbnail }}" alt="{{ post.title }}" />
                                 </a>
-                                <div class="colored-shadow" style="background-image: url('public/img/examples/color1.jpg'); opacity: 1;"></div>
+                                <div class="colored-shadow" style="background-image: url('{{ post.thumbnail | default: site.thumbnail }}'); opacity: 1;"></div>
                             </div>
                             <div class="card-body">
                                 <h6 class="card-category text-warning">{{ post.title }}</h6>
