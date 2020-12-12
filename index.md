@@ -92,7 +92,7 @@ permalink: /
                                 <h6 class="card-category text-warning">{{ post.category }}</h6>
 
                                 <h4 class="card-title">
-                                    <a href="#pablo">{{ post.title }}</a>
+                                    <a href="https://scratchconvert.com{{ post.permalink }}">{{ post.title }}</a>
                                 </h4>
 
                                 <a href="https://scratchconvert.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
