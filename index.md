@@ -10,8 +10,7 @@ permalink: /
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
-                <h1 class="title">Convert Scratch Projects To Gamemaker Studio 2</h1>
-                <h4>All about how to convert Scratch projects to Gamemaker Studio 2!</h4>
+                <h1 class="title">ScratchConvert</h1>
                 <br />
             </div>
         </div>
@@ -87,7 +86,7 @@ permalink: /
                                     <img src="{{ post.thumbnail | default: site.thumbnail }}" alt="{{ post.title }}" />
                                 </a>
                                 <div class="colored-shadow" style="background-image: url('{{ post.thumbnail | default: site.thumbnail }}'); opacity: 1;"></div>
-                            </div>
+                            </div>1q
                             <div class="card-body">
                                 <h6 class="card-category text-warning">{{ post.category }}</h6>
 
