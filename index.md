@@ -83,7 +83,7 @@ permalink: /
                     <div class="col-md-4">
                         <div class="card card-blog">
                             <div class="card-header card-header-image">
-                                <a href="#pablo">
+                                <a href="https://scratchconvert.com{{ post.permalink }}">
                                     <img src="{{ post.thumbnail | default: site.thumbnail }}" alt="{{ post.title }}" />
                                 </a>
                                 <div class="colored-shadow" style="background-image: url('{{ post.thumbnail | default: site.thumbnail }}'); opacity: 1;"></div>
