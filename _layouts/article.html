@@ -103,24 +103,26 @@
                             
                             
                             {% for post in site.posts %}
-                                <div class="col-md-4">
-                                    <div class="card card-blog">
-                                        <div class="card-header card-header-image">
-                                            <a href="https://scratchconvert.com{{ post.permalink }}">
-                                                <img class="img img-raised" src="{{ post.thumbnail | default: site.thumbnail }}" />
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <h6 class="category text-info">{{ post.category }}</h6>
-                                            <h4 class="card-title">
-                                                <a href="https://scratchconvert.com{{ post.permalink }}">{{ post.title }}</a>
-                                            </h4>
-                                            <p class="card-description">
-                                                {{ post.description }}<a href="https://scratchconvert.com{{ post.permalink }}"> Read More </a>
-                                            </p>
+                                {% if post.permalink != page.permalink %}
+                                    <div class="col-md-4">
+                                        <div class="card card-blog">
+                                            <div class="card-header card-header-image">
+                                                <a href="https://scratchconvert.com{{ post.permalink }}">
+                                                    <img class="img img-raised" src="{{ post.thumbnail | default: site.thumbnail }}" />
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="category text-info">{{ post.category }}</h6>
+                                                <h4 class="card-title">
+                                                    <a href="https://scratchconvert.com{{ post.permalink }}">{{ post.title }}</a>
+                                                </h4>
+                                                <p class="card-description">
+                                                    {{ post.description }}<a href="https://scratchconvert.com{{ post.permalink }}"> Read More </a>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>
