@@ -5,6 +5,7 @@ description: Desdcriptions
 permalink: /how-to-install-scratch2gamemaker
 isFeatured: false
 category: how-to
+tags: [how-to, installation]
 ---
 
 asdasd
