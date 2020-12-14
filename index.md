@@ -88,7 +88,7 @@ permalink: /
                                             <a href="https://scratchconvert.com{{ post.permalink }}">{{ post.title }}</a>
                                         </h4>
 
-                                        <a href="https://scratchconvert.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div></a>
+                                        <a href="https://scratchconvert.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article <div class="ripple-container"></div>
                                     </div>
                                 </div>
                             </div>
