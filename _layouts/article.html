@@ -102,7 +102,7 @@
                         <div class="row">
                             
                             
-                            {% for post in site.posts %}
+                            {% for post in site.posts limit:3 %}
                                 {% if post.permalink != page.permalink %}
                                     <div class="col-md-4">
                                         <div class="card card-blog">
