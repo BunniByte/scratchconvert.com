@@ -54,8 +54,7 @@ permalink: /
                                         <p class="card-description">
                                             {{ post.description }}
                                         </p>
-                                        <a href="https://scratchconvert.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Case Study </a>
-                                            <i class="fab fa-get-pocket"></i>
+                                        <a href="https://scratchconvert.com{{ post.permalink }}" class="btn btn-warning btn-round"> <i class="material-icons">subject</i> Read Article </a>
                                             <div class="ripple-container"></div>
                                         </a>
                                     </div>
