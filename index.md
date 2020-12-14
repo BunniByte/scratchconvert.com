@@ -25,7 +25,7 @@ permalink: /
                             
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card card-raised card-background" style="background-image: url('../assets/img/examples/office2.jpg');">
+                        <div class="card card-raised card-background" style="background-image: url('public/img/misc/header.jpg');">
                             <div class="card-body">
                                 <h6 class="card-category text-info">Worlds</h6>
                                 <a href="#pablo">
