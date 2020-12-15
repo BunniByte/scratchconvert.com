@@ -2,8 +2,8 @@
 layout: article
 title: How to Convert Scratch Projects to EXE For Free
 description: A full walkthrough guide on how to convert Scratch Projects to windows executables (.exe) easily, and for free!
-permalink: /how-to-convert-scratch-projects-to-exe
-thumbnail: public/article-assets/how-to-convert-scratch-projects-to-exe/thumb.png
+permalink: /convert-scratch-to-exe
+thumbnail: public/article-assets/convert-scratch-to-exe/thumb.png
 featured: false
 category: how-to
 tags: [how-to, installation, walkthrough]
@@ -36,5 +36,23 @@ Now that your Scratch Project is converted and Gamemaker Studio 2 is installed, 
 
 Now have to choose in what format you want you want it to be exported as-- either an installer or a .zip file. With an installer, the user will get an .exe installer file which they will have to go through before they can play your game. With a zip file, the user will not have to go through a setup process, but they will have to extract the zip and run the exe file. For now, let's package it as an installer by clicking "Package as Installer." Select the location you want to compile it to, and click "save." The program is now compiling! Once the compile completes, all you need to do is run the .exe file.
 
-### Conclusion
-If you would like to further customize your project, we have an article on just that, as well as the basics of GML (Gamemaker Studio 2's coding language.) Happy coding~
+### How to use vector graphics
+Unfortunately, Gamemaker Studio 2's vector graphics are limited to .swf files only. So, you'll have to convert them from .svg files to .swf files. Fortunately, there is a free program called [svg2swf](http://svg2swf.sourceforge.net/) which you can use to convert your svg files to swf files. To import swf files, double-click on the desired sprite located in the Asset Browser, and click the "Import" button in the newly created window.
+
+### Changing the window size
+If you want to change your program's window size, simply navigate to the room asset titled "rm_game" and double-click it. In the room editor under the "properties" pane, click on the "Creation Code" button. This should bring you to a window with code that looks like the following:
+
+```
+/// Creation code
+
+// Resize the window to native Scratch resolution
+window_set_size(480, 360);
+
+```
+
+This code will resize the window to whatever size you input (width as the first value, and height as the second.) You *could* set it to resize to 1920x1080, but that will leave black bars on the left and right sides of the window. To prevent black bars from appearing, make sure you keep it at a 4:3 aspect ratio.
+
+### Other customizations
+**To change the FPS from Scratch's default 30, ** go to the "Game Options" panel by clicking the little gear icon at the top of your screen. Under the "General" tab, look for the input box labeled "Game frames per second", and change it to whatever you desire, giving your game a smoother feel.
+
+**To change the default window name** from the default "Converted With Scratch2Gamemaker", go to the "Game Options" panel by clicking the gear icon at the top of your screen. Under the "Platform Settings > Windows" tab, you can change the product information from the default values.
