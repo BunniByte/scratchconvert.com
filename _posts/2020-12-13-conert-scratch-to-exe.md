@@ -53,6 +53,6 @@ window_set_size(480, 360);
 This code will resize the window to whatever size you input (width as the first value, and height as the second.) You *could* set it to resize to 1920x1080, but that will leave black bars on the left and right sides of the window. To prevent black bars from appearing, make sure you keep it at a 4:3 aspect ratio.
 
 ### Other customizations
-**To change the FPS from Scratch's default 30, ** go to the "Game Options" panel by clicking the little gear icon at the top of your screen. Under the "General" tab, look for the input box labeled "Game frames per second", and change it to whatever you desire, giving your game a smoother feel.
+**To change the FPS from Scratch's default 30**, go to the "Game Options" panel by clicking the little gear icon at the top of your screen. Under the "General" tab, look for the input box labeled "Game frames per second", and change it to whatever you desire, giving your game a smoother feel.
 
 **To change the default window name** from the default "Converted With Scratch2Gamemaker", go to the "Game Options" panel by clicking the gear icon at the top of your screen. Under the "Platform Settings > Windows" tab, you can change the product information from the default values.
