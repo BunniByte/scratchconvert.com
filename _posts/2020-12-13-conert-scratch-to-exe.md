@@ -44,7 +44,7 @@ Now that your Scratch Project is converted and Gamemaker Studio 2 is installed, 
 
 Now have to choose in what format you want you want it to be exported as-- either an installer or a .zip file. With an installer, the user will get an .exe installer file which they will have to go through before they can play your game. With a zip file, the user will not have to go through a setup process, but they will have to extract the zip and run the exe file. For now, let's package it as an installer by clicking "Package as Installer." Select the location you want to compile it to, and click "save." The program is now compiling! Once the compile completes, all you need to do is run the .exe file.
 
-![Gamemaker studio 2 choose "package as installer"](public/article-assets/convert-scratch-to-exe/package-as-installer.png)
+![Gamemaker studio 2 choose package as installer](public/article-assets/convert-scratch-to-exe/package-as-installer.png)
 
 ### How to use vector graphics
 Unfortunately, Gamemaker Studio 2's vector graphics are limited to .swf files only. So, you'll have to convert them from .svg files to .swf files. Fortunately, there is a free program called [svg2swf](http://svg2swf.sourceforge.net/) which you can use to convert your svg files to swf files. To import swf files, double-click on the desired sprite located in the Asset Browser, and click the "Import" button in the newly created window.
