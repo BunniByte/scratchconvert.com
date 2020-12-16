@@ -29,6 +29,8 @@ Once the conversion finishes, you can navigate to the newly created directory wh
 ### Installing Gamemaker Studio 2
 In order to export your project as a Windows Executable, macOS program, a Linux Executable, or as a HTML5 game, we must first install Gamemaker Studio 2. To do this, go to the [Gamemaker Studio 2 download page](https://accounts.yoyogames.com/downloads) in your browser of choice. You may need to log in or create a Yoyo Games account first. On the downloads page, click "Download" under the "Windows IDE" section.
 
+![Installing Gamemaker Studio 2](public/article-assets/convert-scratch-to-exe/download-gamemaker.png)
+
 In your downloads folder, run the Gamemaker Studio 2 Installer by double-clicking it, like last time, simply follow along with the installer. Once the installation has finished, navigate to your converted Scratch Project's directory and double-click the .yyz file.
 
 ### Exporting your Scratch Project as a Windows Executable
