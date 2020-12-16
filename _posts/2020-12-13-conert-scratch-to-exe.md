@@ -22,7 +22,7 @@ Now it's time to convert your Scratch Project! But to do that, we must first pre
 
 Now that your project is all set for conversion, we are ready to download your Scratch Project. If you are using the web version of Scratch to create your projects, navigate to your game and click "See inside." Once your are in the editor, click on the "File" button on the top tab, and in the dropdown, select "Save to your computer."
 
-![Saving a Scratch Project As a Local File]public/article-assets/convert-scratch-to-exe/save-scratch-project.png)
+![Saving a Scratch Project As a Local File](public/article-assets/convert-scratch-to-exe/save-scratch-project.png)
 
 Now, in the Scratch2Gamemaker program, drag and drop your project file (it should end in .sb3) right onto the Scratch2Gamemaker program where it says "Drag and drop your .sb3 file here.." Once you drag-and-drop the project file into the program, click on the "Convert" button. Please note that this will NOT delete your Scratch Project file, but will rather create a new folder in the directory where the Scratch Project file originates.
 
