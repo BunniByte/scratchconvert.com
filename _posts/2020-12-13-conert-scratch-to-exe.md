@@ -20,6 +20,8 @@ Now that Scratch2Gamemaker is installed, run the program by double-clicking the 
 ### Converting Your Scratch Project
 Now it's time to convert your Scratch Project! But to do that, we must first prepare it for conversion. Currently, Gamemaker Studio 2 supports vector graphics, but only in the .swf format, not the .svg format that Scratch uses, so unfortunately, we will need to rasterize our art temporarily. Note that there is a workaround for adding vector graphics that we will discuss later. To rasterize your art, simply go to the art editor, and click on the "Convert to Bitmap" button on the bottom-left of the preview panel. It is also worth noting that custom blocks are currently unsupported in Scratch2Gamemaker.
 
+![Converting scratch sprite to bitmap](public/article-assets/convert-scratch-to-exe/convert-to-bitmap.png)
+
 Now that your project is all set for conversion, we are ready to download your Scratch Project. If you are using the web version of Scratch to create your projects, navigate to your game and click "See inside." Once your are in the editor, click on the "File" button on the top tab, and in the dropdown, select "Save to your computer."
 
 ![Saving a Scratch Project As a Local File](public/article-assets/convert-scratch-to-exe/save-scratch-project.png)
